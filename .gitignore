@@ -1,0 +1,6 @@
+danfes/*
+processados/*
+saida_json/*
+memory/
+__pycache__/
+*.pyc
