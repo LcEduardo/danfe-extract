@@ -1,6 +1,7 @@
 danfes/*
 processados/*
 saida_json/*
+logs/*
 memory/
 __pycache__/
 *.pyc

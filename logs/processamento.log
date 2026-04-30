@@ -1,21 +1,9 @@
-2026-04-30 11:30:02 INFO  Iniciando processamento: OpSN - RegEsp - RegAp.pdf
-2026-04-30 11:30:02 WARNING Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
-2026-04-30 11:30:02 WARNING Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
-2026-04-30 11:30:02 WARNING Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
-2026-04-30 11:30:02 WARNING Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
-2026-04-30 11:30:02 WARNING Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
-2026-04-30 11:30:02 WARNING Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
-2026-04-30 11:30:02 INFO  Convertido: OpSN - RegEsp - RegAp.pdf -> saida_json\OpSN - RegEsp - RegAp.md
-2026-04-30 11:30:02 ERROR Falha ao processar OpSN - RegEsp - RegAp.pdf: [WinError 183] Não é possível criar um arquivo já existente: 'danfes\\OpSN - RegEsp - RegAp.pdf' -> 'processados\\OpSN - RegEsp - RegAp.pdf'
-2026-04-30 11:31:04 INFO  Iniciando processamento: OpSN - RegEsp - RegAp.pdf
-2026-04-30 11:31:04 WARNING Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
-2026-04-30 11:31:04 WARNING Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
-2026-04-30 11:31:04 WARNING Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
-2026-04-30 11:31:04 WARNING Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
-2026-04-30 11:31:04 WARNING Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
-2026-04-30 11:31:04 WARNING Could get FontBBox from font descriptor because None cannot be parsed as 4 floats
-2026-04-30 11:31:04 INFO  Convertido: OpSN - RegEsp - RegAp.pdf -> saida_json\OpSN - RegEsp - RegAp.md
-2026-04-30 11:31:04 INFO  Movido para processados: OpSN - RegEsp - RegAp.pdf
-2026-04-30 11:32:27 INFO  Iniciando processamento: OpSN - RegEsp - RegAp.pdf
-2026-04-30 11:32:27 INFO  Convertido: OpSN - RegEsp - RegAp.pdf -> saida_json\OpSN - RegEsp - RegAp.md
-2026-04-30 11:32:27 INFO  Movido para processados: OpSN - RegEsp - RegAp.pdf
+2026-04-30 11:38:28 INFO  Iniciando processamento: Danfe1.pdf
+2026-04-30 11:38:28 INFO  Convertido: Danfe1.pdf -> saida_json\Danfe1.md
+2026-04-30 11:38:28 INFO  Movido para processados: Danfe1.pdf
+2026-04-30 12:10:46 INFO  Iniciando processamento: Danfe1.pdf
+2026-04-30 12:10:46 INFO  Convertido: Danfe1.pdf -> saida_json\Danfe1.md
+2026-04-30 12:10:46 INFO  Movido para processados: Danfe1.pdf
+2026-04-30 12:12:15 INFO  Iniciando processamento: Danfe2.pdf
+2026-04-30 12:12:15 INFO  Convertido: Danfe2.pdf -> saida_json\Danfe2.md
+2026-04-30 12:12:15 INFO  Movido para processados: Danfe2.pdf
