@@ -6,6 +6,11 @@ from config import PASTA_ORIGEM, PASTA_PROCESSADOS, PASTA_DESTINO
 logger = logging.getLogger("leitorDANFe")
 
 
+def _is_valid_pdf(path: Path) -> bool:
+    with open(path, "rb") as f:
+        return f.read(5) == b"%PDF-"
+
+
 def converter_pdfs_para_markdown(origem: str = PASTA_ORIGEM, destino: str = PASTA_DESTINO, processados: str = PASTA_PROCESSADOS):
     pdfs = list(Path(origem).glob("*.pdf"))
 
@@ -16,6 +21,11 @@ def converter_pdfs_para_markdown(origem: str = PASTA_ORIGEM, destino: str = PAST
 
     md = MarkItDown()
     for pdf in pdfs:
+        if not _is_valid_pdf(pdf):
+            logger.warning("Arquivo ignorado (não é um PDF válido): %s", pdf.name)
+            print(f"AVISO: {pdf.name} foi ignorado pois não é um PDF válido.")
+            continue
+
         logger.info("Iniciando processamento: %s", pdf.name)
         try:
             resultado = md.convert(str(pdf))
