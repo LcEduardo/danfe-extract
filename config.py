@@ -1,4 +1,5 @@
 PASTA_ORIGEM = "danfes"
 PASTA_PROCESSADOS = "processados"
-PASTA_DESTINO = "saida_json"
+PASTA_DESTINO = "extract_markitdown"
+PASTA_JSON = "json_extraidos"
 PASTA_LOGS = "logs"

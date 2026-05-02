@@ -1,6 +1,8 @@
+.env
 danfes/*
 processados/*
-saida_json/*
+extract_markitdown/*
+json_extraidos/*
 logs/*
 memory/
 __pycache__/
