@@ -11,7 +11,7 @@ A nota fiscal eletrônica (NF-e) existe em dois formatos:
 - **XML** — o arquivo oficial, com todos os dados estruturados e legíveis por máquina
 - **DANFE** (PDF) — a representação visual da nota, feita para humanos lerem
 
-Na prática, a maioria das empresas trabalha com o DANFE em PDF porque o XML é difícil de abrir e interpretar sem ferramentas específicas. O problema é que dados presos em PDF são difíceis de processar, cruzar com outros sistemas ou analisar em volume.
+Na prática, a maioria das empresas trabalha com o DANFE em PDF porque o XML é difícil de interpretar sem ferramentas específicas. O problema é que dados presos em PDF são difíceis de processar, cruzar com outros sistemas ou analisar em volume.
 
 Este projeto resolve isso: você joga um PDF de DANFE, ele devolve um JSON limpo e estruturado com todos os dados da nota — produtos, impostos, totais, destinatário — prontos para uso.
 
@@ -110,11 +110,11 @@ python main.py
 ```json
 {
   "numero_nota": "002.305.647",
-  "chave_acesso": "42 2604 84586205000352 55 000 002305647 1 59751957 0",
+  "chave_acesso": "42 2604 84586205000352 00 000 002305647 0 00000000 0",
   "natureza_operacao": "Venda p/Revenda",
   "destinatario": {
-    "cnpj": "12.958.084/0001-50",
-    "ie": "256270520"
+    "cnpj": "11.111.111/1111-11",
+    "ie": "111111111"
   },
   "produtos": [
     {
