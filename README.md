@@ -184,6 +184,14 @@ Cria todas as pastas necessárias caso não existam. Seguro para rodar múltipla
 | `markitdown` | Conversão de PDF para Markdown (Microsoft) |
 | `python-dotenv` | Carregamento do `.env` com a chave de API |
 
+O `dotenv` injeta as variáveis de ambiente para que o SDK da Anthropic as leia automaticamente — ele procura por `ANTHROPIC_API_KEY` por convenção interna. Outra forma de usar seria:
+
+```python
+
+client = anthropic.Anthropic(api_key=os.getenv("MINHA_CHAVE_QUALQUER"))
+
+```
+
 ---
 
 ## Logs
